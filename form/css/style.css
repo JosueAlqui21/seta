@@ -149,10 +149,10 @@ img {
   height: 521px; }
 
 .form-content {
-  width: 60%;
+  width: 65%;
   padding-top: 17px;
-  padding-left: 51px;
-  padding-right: 51px; }
+  padding-left: 41px;
+  padding-right: 41px; }
 
 .form-header {
   text-align: center;
@@ -235,7 +235,7 @@ p {
     font-size: 17px; }
 
 .form-control {
-  height: 40px;
+  height: 35px;
   border: none;
   border-bottom: 2px solid #e6e6e6;
   width: 100%;
