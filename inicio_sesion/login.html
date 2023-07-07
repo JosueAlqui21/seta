@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+  <!-- MATERIAL DESIGN ICONIC FONT -->
+  <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <form action="" id="" style="width: 1000px; height: auto;">
+          <!-- SECTION 1 -->
+          <section>
+            <div class="inner">
+                <img class="image-fluid" src="img/log.jpg" style="width: 600px; height: 500px; border-radius: 5px; position: left;"  alt="">
+              <div class="form-content" >
+                <div class="form-header">
+                  <div class="logo-containerr">
+                    <img src="img/gl.png" alt="Logo" class="logo-imagee mt-3" style="width: 150px; height: 120px;">
+                  </div>
+                  <br>
+                  <h3>Inicio de Sesión</h3>
+                </div>
+                <br>
+                <!--p>Please fill with your details</p-->
+                <input type="hidden" name="id_cliente" class="form-control">
+
+                  <div class="form-holder">
+                    <input type="text" placeholder="Ingrese su Correo" class="form-control">
+                  </div>
+                  <br><br>
+
+                  <div class="form-holder">
+                    <input type="password"  id="contrasena" name="contrasena" class="form-control"                  
+                    placeholder="Ingrese su contraseña" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres" required>
+                  </div>
+                  <br>
+      
+                <center>
+                  <input type="submit" value="Registrar"><br><br>
+                  
+                  <a href="#" target="_blank" style="color: red;">Recuperar contraseña</a><br><br>
+
+
+                ¿Todavía no tienes cuenta?
+                  <a href="#" target="_blank">Registrate aquí</a>
+                </center>
+      
+      
+              </div>
+            </div>
+          </section>
+      
+        </form>
+      </div>
+      
+      <!-- JQUERY -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      
+      <!-- JQUERY STEP -->
+      <script src="js/jquery.steps.js"></script>
+      <script src="js/main.js"></script>
+      <!-- Template created and distributed by Colorlib -->
+      
+    
+</body>
+</html>
